@@ -1,5 +1,6 @@
 import esbuild from "esbuild";
 import process from "process";
+import builtins from 'builtin-modules';
 
 const banner =
 `/*
@@ -15,7 +16,8 @@ esbuild.build({
 	entryPoints: ['main.ts'],
 	bundle: true,
 	external: [
-		'obsidian'
+		'obsidian',
+		...builtins
 	],
 	format: 'cjs',
 	target: 'es2016',
