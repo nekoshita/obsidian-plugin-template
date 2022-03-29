@@ -19,6 +19,7 @@
   "homepage": "https://github.com/nekoshita/obsidian-ogp#readme",
   "devDependencies": {
     "esbuild": "^0.14.28",
+    "obsidian": "^0.14.3",
     "typescript": "^4.6.3"
   }
 }
