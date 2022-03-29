@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
-    "tsc": "tsc"
+    "tsc": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/nekoshita/obsidian-ogp#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "esbuild": "^0.14.28",
+    "eslint": "^8.12.0",
     "obsidian": "^0.14.3",
     "typescript": "^4.6.3"
   }
