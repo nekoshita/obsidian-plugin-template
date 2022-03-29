@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "main.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nekoshita/obsidian-ogp.git"
@@ -14,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/nekoshita/obsidian-ogp/issues"
   },
-  "homepage": "https://github.com/nekoshita/obsidian-ogp#readme"
+  "homepage": "https://github.com/nekoshita/obsidian-ogp#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
