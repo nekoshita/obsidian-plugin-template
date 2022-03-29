@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "main.js",
-  "scripts": {},
+  "scripts": {
+    "tsc": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nekoshita/obsidian-ogp.git"
