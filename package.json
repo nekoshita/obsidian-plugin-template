@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node esbuild.config.js",
+    "build": "tsc -noEmit && node esbuild.config.js production",
     "tsc": "tsc --noEmit",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --fix --ext .ts",
